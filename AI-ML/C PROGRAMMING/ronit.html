@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Denomination of Amount Deposited</title>
+</head>
+<body>
+<h1>Denomination of Amount Deposited</h1>
+<p>Enter the amount deposited:</p>
+<input type="number" id="amountDeposited">
+<br><br>
+<button onclick="calculateDenomination()">Calculate Denomination</button>
+<br><br>
+<p>Denominations:</p>
+<ul id="denominationList"></ul>
+<script> function calculateDenomination() {
+const amountDeposited = parseInt(document.getElementById("amountDeposited").value); let remainingAmount = amountDeposited;
+const denominations = [
+{ name: "100's", value: 100 },
+{ name: "50's", value: 50 },
+{ name: "20's", value: 20 },
+{ name: "10's", value: 10 },
+{ name: "5's", value: 5 },
+{ name: "2's", value: 2 },
+{ name: "1's", value: 1 }
+];
+const denominationList = document.getElementById("denominationList"); denominationList.innerHTML = "";
+for (let i = 0; i < denominations.length; i++) {
+const denomination = denominations[i];
+const count = Math.floor(remainingAmount / denomination.value); remainingAmount -= count * denomination.value;
+if (count > 0) {
+const listItem = document.createElement("li"); listItem.innerHTML = `${count} x ${denomination.name}`;
+denominationList.appendChild(listItem);
+}
+}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    background-color: rgb(201, 196, 206);
+    width: 600px;
+    margin:auto;
+}
+main{
+    text-align: center;
+    background-color: rgba(45, 6, 202, 0.468);
+    margin: 20px;
+    font-family: 'Fira Sans' sans-serif;
+    color: aliceblue;
+    padding: 10px;
+}
+img{
+    width: 150px;
+    border-radius: 5px;
+}
+span{
+    color: rgba(137, 5, 252, 0.986);
+    background-color: rgb(253, 200, 8);
+    border-radius: 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    
+}
+#new{
+    padding-left: 0%;
+    font-size: 18px;
+}
+p
+{
+    font-size: 24px;
+    text-align: left;
+    padding-left:40px;
+}
+ol{   
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    margin: 10px auto 0 auto;
+}
+li{
+    margin: 5px;
+}
+#bold{
+    font-weight: bold;
+}
+
+.highlight{
+    color: rgb(216, 213, 169);
+    list-style:disc;
+    padding: 5px;
+}
+
+a{
+    color: black;
+    background-color: rgb(254, 192, 3);
+    padding: 12px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: rgb(250, 210, 99);
+}

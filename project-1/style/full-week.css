@@ -1,0 +1,67 @@
+header{
+    margin: 64px;
+}
+
+h1{
+    font-size: 48px;
+    color: rgb(82,71,71);
+    margin: 0px;
+}
+
+#discription{
+    margin:12px 0px;
+}
+
+header p{
+    margin-bottom: 36px;
+}
+
+a{
+    font-size: 24px;
+    color:white;
+    background-color: rgb(167,1,78);
+    border-radius: 4px;
+    padding: 12px;
+    border:1px solid rgb(167,1,78);
+    display: inline-block;
+    margin: 0px;
+}
+
+a:hover{
+    background-color: rgb(180,12,90);
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Fira Sans' sans-serif;
+    margin: 36px;
+}
+
+ol{
+    list-style: none; 
+    width: 500px;
+    margin: 36px auto 0 auto;
+}
+
+li{
+        padding: 16px;
+        box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+        background-color: rgb(233,136,124);
+        margin: 32px;
+        border-radius: 6px;
+}
+
+h2{
+    color: rgb(78,13,5);
+    font-family: 'Oswald',sans-serif;
+}
+
+/* main p{
+    margin: 12px;
+    color: rgb(71,29,22);
+
+} */
+
+.highlight-goal{
+    background-color: rgb(226,115,101);
+}
